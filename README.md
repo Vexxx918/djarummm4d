@@ -3,7 +3,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>DJARUM4D</title>
+<div class="logo">
+DJARUM<span>4D</span>
+<div class="subtitle">Situs Terpercaya</div>
+</div>
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -28,7 +31,7 @@ color:#fff;
 background:linear-gradient(90deg,#00ffe0,#008f7a);
 padding:8px;
 text-align:center;
-font-weight:bold;
+
 font-size:15px;
 }
 
@@ -48,10 +51,18 @@ flex-wrap:wrap;
 font-size:40px;
 font-weight:bold;
 color:#fff;
+line-height:1.1;
 }
 
 .logo span{
 color:#00ffd5;
+}
+
+.subtitle{
+font-size:14px;
+font-weight:normal;
+color:#ccc;
+margin-top:5px;
 }
 
 .search-box{
