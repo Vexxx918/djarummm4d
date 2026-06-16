@@ -1,17 +1,21 @@
-<header>
-    <div class="logo">DJARUM4D</div>
+<div class="search-container">
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Cari menu..."
+        onkeyup="searchMenu()">
 
-    <input type="text" placeholder="Cari..." />
+    <button class="search-btn">
+        🔍
+    </button>
+</div>
 
-    <div class="menu">
-        <a href="#">Account</a>
-        <a href="#">Cart</a>
-        <button>Buat Akun</button>
-    </div>
-</header>
-<div class="category">
-    <a href="#">SITUS TOTO</a>
-    <a href="#">TOGEL ONLINE</a>
-    <a href="#">TOGEL 4D</a>
-    <a href="#">SITUS TOGEL</a>
+<div id="menuList">
+    <a href="#" class="menu-item">DJARUM4D</a>
+    <a href="#" class="menu-item">SITUS TOTO</a>
+    <a href="#" class="menu-item">TOGEL ONLINE</a>
+    <a href="#" class="menu-item">TOGEL 4D</a>
+    <a href="#" class="menu-item">BANDAR TOGEL</a>
+    <a href="#" class="menu-item">LOGIN</a>
+    <a href="#" class="menu-item">DAFTAR</a>
 </div>
